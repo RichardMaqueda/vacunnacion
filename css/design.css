@@ -1,0 +1,103 @@
+@import url('https://fonts.cdnfonts.com/css/semplicita');
+* {
+    font-family: 'Semplicita', sans-serif;
+}
+.logo {
+    font-size: 2rem;
+}
+.absolute {
+    position: absolute !important;
+}
+.relative {
+    position: relative !important;
+}
+.top {
+    top: 0px !important;
+}
+.left {
+    left: 0px !important;
+}
+.yellow {
+    color: #FFD012 !important;
+}
+
+/* uikit */
+.uk-text-primary {
+    color: #2B4BC9 !important;
+}
+.text-secondary {
+    color: #1F3E72 !important;
+}
+.uk-button-primary {
+    background-color: #2B4BC9 !important;
+}
+.uk-button-secondary {
+    background-color: #F1F5FF !important;
+    color: #2949C7 !important;
+}
+.uk-section-opaque {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.uk-section-footer {
+    background-color: #EEF3FF !important;
+}
+.uk-panel-primary {
+    background-color: #128DE4 !important;
+}
+.uk-navbar-nav > li > a {
+    font-weight: bold;
+}
+.uk-grid>* {
+    display: inline-block;
+}
+.uk-panel {
+    padding: 1rem !important;
+}
+.uk-text-normal {
+    color: inherit;
+}
+.uk-navbar-compact li > a {
+    min-height: auto !important;
+    font-weight: normal;
+}
+.uk-navbar-nav > li > a {
+    text-transform: initial !important;
+}
+h1, h2 {
+    color: #1F3E72 !important;
+}
+h1 {
+    font-size: 3rem !important;
+}
+h2 {
+    font-size: 2rem !important;
+}
+.button-icon {
+    color: #1f3e72;
+    background-color: #E3E9FF;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+}
+.button-icon.x2 {
+    width: 40px;
+    height: 40px;
+}
+.uk-accordion-title::before {
+    background-color: #E3E9FF;
+}
+
+#uk-overflow {
+    margin-top: -170px;
+    position: relative;
+}
+.uk-card-marked {
+    box-shadow: 0 11px 20px rgba(0, 0, 0, 0.13) !important;
+}
+
+@media (min-width: 960px) {
+    .uk-section {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+}
